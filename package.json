@@ -1,0 +1,27 @@
+{
+    "name": "FaceDetection",
+    "author": "Widget Developer",
+	"contributors": [
+	    "Developer 1", 
+	    "Developer 2"
+	],
+    "version": "1.0.0",
+    "copyright": "(c) 2013 Widget Developer",
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/developer/Widget.git"
+	},
+	"keywords": ["wakanda", "widget"],
+	"engines": {"wakanda" : ">= 6"},
+	"license": "MIT", 
+    "loadDependencies": [
+    	{"id": "Widget_V2"},
+        {"id": "FaceDetection/tracking.js", "runtimeOnly": true,"path": "WIDGETS_CUSTOM"},        
+        {"id": "FaceDetection/tracker/human/human.js", "runtimeOnly": true, "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceDetection/tracker/human/data/frontal_face.js", "runtimeOnly": true, "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceDetection/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceDetection/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FaceDetection/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+
+    ]
+}
